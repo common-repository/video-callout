@@ -1,0 +1,577 @@
+# Copyright (C) 2024 Web Engineer
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Video Callout 1.2.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/we-video-popup\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-03-26T12:02:08+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: video-callout\n"
+
+#. Plugin Name of the plugin
+#: video-callout.php
+#: classes/video-callout-admin.php:108
+#: classes/video-callout-admin.php:116
+#: classes/video-callout-admin.php:1068
+#: src-react/packages/backend/index.jsx:20
+msgid "Video Callout"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: video-callout.php
+msgid "https://www.web-engineer.co.uk/video-callout?ref=plugin-page"
+msgstr ""
+
+#. Description of the plugin
+#: video-callout.php
+msgid "A simple solution to creating \"Video Callouts\" to your users on any given post/page as an overlay or modal, allows precise control of the frequency, timing delay and how the video is dismissed."
+msgstr ""
+
+#. Author of the plugin
+#: video-callout.php
+msgid "Web Engineer"
+msgstr ""
+
+#. Author URI of the plugin
+#: video-callout.php
+msgid "https://www.web-engineer.co.uk/"
+msgstr ""
+
+#: classes/video-callout-admin.php:169
+#: classes/view/meta-box.php:104
+#: src-react/packages/backend/components/WEVCPlayback.jsx:253
+msgid "Playback"
+msgstr ""
+
+#: classes/video-callout-admin.php:175
+msgid "Window"
+msgstr ""
+
+#: classes/video-callout-admin.php:181
+msgid "Frame"
+msgstr ""
+
+#: classes/video-callout-admin.php:187
+msgid "Closer"
+msgstr ""
+
+#: classes/video-callout-admin.php:196
+#: classes/view/meta-box.php:124
+#: src-react/packages/backend/components/WEVCPlayback.jsx:256
+msgid "Autoplay"
+msgstr ""
+
+#: classes/video-callout-admin.php:211
+#: classes/view/meta-box.php:128
+#: src-react/packages/backend/components/WEVCPlayback.jsx:268
+msgid "Delay"
+msgstr ""
+
+#: classes/video-callout-admin.php:238
+#: classes/view/meta-box.php:141
+msgid "Display frequency period"
+msgstr ""
+
+#: classes/video-callout-admin.php:251
+msgid "Redisplay duration"
+msgstr ""
+
+#: classes/video-callout-admin.php:264
+#: classes/view/meta-box.php:194
+#: src-react/packages/backend/components/WEVCPlayback.jsx:346
+msgid "Mute"
+msgstr ""
+
+#: classes/video-callout-admin.php:280
+#: src-react/packages/backend/components/WEVCConfigure.jsx:172
+msgid "Position"
+msgstr ""
+
+#: classes/video-callout-admin.php:294
+msgid "Modal window"
+msgstr ""
+
+#: classes/video-callout-admin.php:308
+msgid "Modal Background"
+msgstr ""
+
+#: classes/video-callout-admin.php:322
+msgid "Show modal blur"
+msgstr ""
+
+#: classes/video-callout-admin.php:336
+msgid "Modal blur"
+msgstr ""
+
+#: classes/video-callout-admin.php:350
+msgid "CSS Class"
+msgstr ""
+
+#: classes/video-callout-admin.php:362
+msgid "Z-Index"
+msgstr ""
+
+#: classes/video-callout-admin.php:386
+msgid "Default width"
+msgstr ""
+
+#: classes/video-callout-admin.php:399
+msgid "Default height"
+msgstr ""
+
+#: classes/video-callout-admin.php:413
+msgid "Margin"
+msgstr ""
+
+#: classes/video-callout-admin.php:427
+msgid "Padding"
+msgstr ""
+
+#: classes/video-callout-admin.php:441
+#: classes/video-callout-admin.php:550
+msgid "Background"
+msgstr ""
+
+#: classes/video-callout-admin.php:454
+#: classes/video-callout-admin.php:577
+msgid "Show shadow"
+msgstr ""
+
+#: classes/video-callout-admin.php:467
+#: classes/video-callout-admin.php:629
+msgid "Shadow color"
+msgstr ""
+
+#: classes/video-callout-admin.php:481
+#: classes/video-callout-admin.php:590
+msgid "Shadow blur"
+msgstr ""
+
+#: classes/video-callout-admin.php:494
+#: classes/video-callout-admin.php:603
+msgid "Shadow h-offset"
+msgstr ""
+
+#: classes/video-callout-admin.php:507
+#: classes/video-callout-admin.php:616
+msgid "Shadow v-offset"
+msgstr ""
+
+#: classes/video-callout-admin.php:523
+msgid "Show"
+msgstr ""
+
+#: classes/video-callout-admin.php:536
+msgid "Overall size"
+msgstr ""
+
+#: classes/video-callout-admin.php:564
+msgid "Icon color"
+msgstr ""
+
+#: classes/video-callout-admin.php:654
+msgid "Time before the callout appears in milliseconds (ms), 1000ms = 1 second."
+msgstr ""
+
+#: classes/video-callout-admin.php:658
+msgid "Changes the default width of the callout container."
+msgstr ""
+
+#: classes/video-callout-admin.php:662
+msgid "Changes the default height of the callout container."
+msgstr ""
+
+#: classes/video-callout-admin.php:666
+msgid "How far from the edges of the page the window will be placed."
+msgstr ""
+
+#: classes/video-callout-admin.php:670
+msgid "Space between the outer edge of the callout and the video it contains."
+msgstr ""
+
+#: classes/video-callout-admin.php:674
+#: classes/video-callout-admin.php:707
+msgid "How much to blur?"
+msgstr ""
+
+#: classes/video-callout-admin.php:678
+#: classes/video-callout-admin.php:694
+msgid "Horizontal offset."
+msgstr ""
+
+#: classes/video-callout-admin.php:682
+#: classes/video-callout-admin.php:698
+msgid "Vertical offset."
+msgstr ""
+
+#: classes/video-callout-admin.php:686
+msgid "How large should the close button be?"
+msgstr ""
+
+#: classes/video-callout-admin.php:690
+msgid "How much to blur the shadow?"
+msgstr ""
+
+#: classes/video-callout-admin.php:703
+msgid "If you want to change the stacking order you can change it here"
+msgstr ""
+
+#: classes/video-callout-admin.php:741
+#: classes/view/meta-box.php:144
+#: src-react/packages/backend/components/WEVCPlayback.jsx:149
+#: src-react/packages/backend/components/WEVCPlayback.jsx:207
+#: src-react/packages/backend/components/WEVCPlayback.jsx:229
+msgid "Always show"
+msgstr ""
+
+#: classes/video-callout-admin.php:742
+#: src-react/packages/backend/components/WEVCPlayback.jsx:211
+msgid "Seconds"
+msgstr ""
+
+#: classes/video-callout-admin.php:743
+#: src-react/packages/backend/components/WEVCPlayback.jsx:215
+msgid "Minutes"
+msgstr ""
+
+#: classes/video-callout-admin.php:744
+#: src-react/packages/backend/components/WEVCPlayback.jsx:219
+msgid "Hours"
+msgstr ""
+
+#: classes/video-callout-admin.php:745
+#: src-react/packages/backend/components/WEVCPlayback.jsx:223
+msgid "Days"
+msgstr ""
+
+#: classes/video-callout-admin.php:750
+msgid "Time before the callout is shown again."
+msgstr ""
+
+#: classes/video-callout-admin.php:767
+msgid "The background color of the callout and the padding around the video."
+msgstr ""
+
+#: classes/video-callout-admin.php:775
+msgid "The color of the shadow cast by the callout."
+msgstr ""
+
+#: classes/video-callout-admin.php:779
+msgid "Button background color."
+msgstr ""
+
+#: classes/video-callout-admin.php:783
+msgid "Button foreground color."
+msgstr ""
+
+#: classes/video-callout-admin.php:787
+msgid "The color of the overlay."
+msgstr ""
+
+#: classes/video-callout-admin.php:790
+msgid "Optional CSS classes to apply to the callout (can be overridden on the page or post)."
+msgstr ""
+
+#: classes/video-callout-admin.php:795
+#: classes/view/meta-box.php:171
+msgid "How long before redisplay in seconds"
+msgstr ""
+
+#: classes/video-callout-admin.php:796
+#: classes/view/meta-box.php:172
+msgid "How long before redisplay in minutes"
+msgstr ""
+
+#: classes/video-callout-admin.php:797
+#: classes/view/meta-box.php:173
+msgid "How long before redisplay in hours"
+msgstr ""
+
+#: classes/video-callout-admin.php:798
+#: classes/view/meta-box.php:174
+msgid "How long before redisplay in days"
+msgstr ""
+
+#: classes/video-callout-admin.php:845
+msgid "When enabled the content of the page will be blocked by an overlay."
+msgstr ""
+
+#: classes/video-callout-admin.php:848
+msgid "When enabled the content of the page will be blurred"
+msgstr ""
+
+#: classes/video-callout-admin.php:942
+#: src-react/packages/backend/components/WEVCPanel.jsx:196
+msgid "Preview"
+msgstr ""
+
+#: classes/video-callout-admin.php:951
+msgid "Default playback settings such as timing. Note for autoplay to work you will need to select the \"mute\" option too."
+msgstr ""
+
+#: classes/video-callout-admin.php:960
+msgid "Callout position and it's relation to the page."
+msgstr ""
+
+#: classes/video-callout-admin.php:970
+msgid "The frame containing the video."
+msgstr ""
+
+#: classes/video-callout-admin.php:979
+msgid "The optional button attached to the top right of the callout for closing the window.  When not enabled clicking outside the Video Callout window will dismiss it."
+msgstr ""
+
+#: classes/video-callout-admin.php:1061
+msgid "A Web-Engineer plugin. <a href=\"%s\">Visit our site</a> for information on our range of services."
+msgstr ""
+
+#: classes/video-callout-admin.php:1071
+msgid "Adjust the general appearance and defaults here. Other settings can be configured on each post and page when you add a video callout."
+msgstr ""
+
+#: classes/video-callout-admin.php:1072
+msgid "Callouts are created from the Video Callout widget to the right of the post or page editor."
+msgstr ""
+
+#: classes/video-callout-admin.php:1075
+msgid "For more information about this plugin see our  <a href=\"https://www.web-engineer.co.uk/video-callout\">getting started guide.</a>"
+msgstr ""
+
+#: classes/video-callout-admin.php:1127
+msgid "Invalid frequency"
+msgstr ""
+
+#: classes/video-callout-admin.php:1189
+msgid "Video Callout Settings"
+msgstr ""
+
+#: classes/video-callout-admin.php:1189
+#: classes/view/dashboard.php:84
+msgid "Settings"
+msgstr ""
+
+#: classes/video-callout-meta.php:160
+msgid "Display frequency was not applied as this was not valid."
+msgstr ""
+
+#: classes/video-callout.php:80
+msgid "Video Callout - a free plugin by <a href=\"https://www.web-engineer.co.uk/video-callout\">Web-Engineer</a>"
+msgstr ""
+
+#: classes/view/dashboard.php:35
+msgid "You have %d callout on your site."
+msgid_plural "You have %d callouts on your site."
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/view/dashboard.php:36
+msgid "Most recent popups:"
+msgstr ""
+
+#: classes/view/dashboard.php:78
+msgid "There are no \"video-popup's\" currently in use."
+msgstr ""
+
+#: classes/view/meta-box.php:89
+#: src-react/packages/backend/components/WEVCPanel.jsx:163
+msgid "Defaults and general styling can be configured from the"
+msgstr ""
+
+#: classes/view/meta-box.php:89
+#: src-react/packages/backend/components/WEVCPanel.jsx:163
+msgid "settings page"
+msgstr ""
+
+#: classes/view/meta-box.php:92
+msgid "Video"
+msgstr ""
+
+#: classes/view/meta-box.php:98
+msgid "YouTube or Vimeo URL."
+msgstr ""
+
+#: classes/view/meta-box.php:107
+msgid "Toggle panel: Video Callout playback"
+msgstr ""
+
+#: classes/view/meta-box.php:133
+msgid "Number of milliseconds until video appears, 1000 = 1 second."
+msgstr ""
+
+#: classes/view/meta-box.php:145
+msgid "second"
+msgstr ""
+
+#: classes/view/meta-box.php:146
+msgid "minute"
+msgstr ""
+
+#: classes/view/meta-box.php:147
+msgid "hour"
+msgstr ""
+
+#: classes/view/meta-box.php:148
+msgid "day"
+msgstr ""
+
+#: classes/view/meta-box.php:153
+msgid "Time period before redisplay"
+msgstr ""
+
+#: classes/view/meta-box.php:158
+msgid "Display frequency range"
+msgstr ""
+
+#: classes/view/meta-box.php:206
+#: src-react/packages/backend/components/WEVCConfigure.jsx:150
+msgid "Configure"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCConfigure.jsx:155
+msgid "Width"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCConfigure.jsx:159
+msgid "Display width of video in pixels"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCConfigure.jsx:163
+msgid "Height"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCConfigure.jsx:167
+msgid "Display height of video in pixels"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCConfigure.jsx:192
+msgid "CSS class"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCConfigure.jsx:195
+msgid "Optional css classes to apply to callout."
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCConfigure.jsx:204
+msgid "Revert configuration to defaults"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPanel.jsx:168
+msgid "Video address"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPanel.jsx:169
+msgid "YouTube, Google Drive, or Vimeo URL."
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:163
+msgid "Wait for %d second before redisplay (default)"
+msgid_plural "Wait for %d seconds before redisplay (default)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:165
+msgid "Wait for %d minute before redisplay (default)"
+msgid_plural "Wait for %d minutes before redisplay (default)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:167
+msgid "Wait for %d hour before redisplay (default)"
+msgid_plural "Wait for %d hours before redisplay (default)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:169
+msgid "Wait for %d day before redisplay (default)"
+msgid_plural "Wait for %d days before redisplay (default)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:175
+msgid "Wait for %d second before redisplay"
+msgid_plural "Wait for %d seconds before redisplay"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:177
+msgid "Wait for %d minute before redisplay"
+msgid_plural "Wait for %d minutes before redisplay"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:179
+msgid "Wait for %d hour before redisplay"
+msgid_plural "Wait for %d hours before redisplay"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:181
+msgid "Wait for %d day before redisplay"
+msgid_plural "Wait for %d days before redisplay"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:190
+msgid "How many seconds before redisplay"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:192
+msgid "How many minutes before redisplay"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:194
+msgid "How many hours before redisplay"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:196
+msgid "How many days before redisplay"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:233
+msgid "Second"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:237
+msgid "Minute"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:241
+msgid "Hour"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:245
+msgid "Day"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:259
+msgid "Will attempt to autoplay on load. Video must be muted for autoplay to work in some browsers."
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:260
+msgid "Autoplay off"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:261
+#: src-react/packages/backend/components/WEVCPlayback.jsx:282
+#: src-react/packages/backend/components/WEVCPlayback.jsx:351
+msgid "default"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:279
+msgid "Number of milliseconds until video appears, 1000 = 1 second"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:292
+#: src-react/packages/backend/components/WEVCPlayback.jsx:311
+msgid "Frequency"
+msgstr ""
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:365
+msgid "Revert playback to defaults"
+msgstr ""

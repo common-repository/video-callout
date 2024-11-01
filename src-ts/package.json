@@ -1,0 +1,11 @@
+{
+	"name": "video-callout-frontend",
+	"version": "0.1.0",
+	"private": true,
+	"description": "",
+	"scripts": {
+		"build": "tsc --build",
+		"clean": "tsc --build --clean"
+	  }
+
+}

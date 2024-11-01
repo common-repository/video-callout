@@ -1,0 +1,199 @@
+➜  src-ts git:(master) ✗ tsc
+➜  src-ts git:(master) ✗ tsc
+➜  src-ts git:(master) ✗ tsc
+➜  src-ts git:(master) ✗
+➜  src-ts git:(master) ✗ cd..
+zsh: command not found: cd..
+➜  src-ts git:(master) ✗ cd ..
+➜  we-video-popup git:(master) ✗ ./package.sh
+  adding: src-ts/ (stored 0%)
+  adding: src-ts/frontend/ (stored 0%)
+  adding: src-ts/frontend/WEVC_VideoCallout.ts (deflated 68%)
+  adding: src-ts/frontend/WEVC_AdminPreview.ts (deflated 72%)
+  adding: src-ts/frontend/WEVC_TypeVimeo.ts (deflated 62%)
+  adding: src-ts/frontend/WEVC_InputDefaultReset.ts (deflated 61%)
+  adding: src-ts/frontend/WEVC_TypePreview.ts (deflated 47%)
+  adding: src-ts/frontend/WEVC_TypeYouTube.ts (deflated 61%)
+  adding: src-ts/package.json (deflated 34%)
+  adding: src-ts/tsconfig.json (deflated 38%)
+  adding: src-react/ (stored 0%)
+  adding: src-react/backend.config.js (deflated 51%)
+  adding: src-react/package-lock.json (deflated 74%)
+  adding: src-react/package.json (deflated 47%)
+  adding: src-react/packages/ (stored 0%)
+  adding: src-react/packages/backend/ (stored 0%)
+  adding: src-react/packages/backend/components/ (stored 0%)
+  adding: src-react/packages/backend/components/SidebarCollapsible.jsx (deflated 57%)
+  adding: src-react/packages/backend/components/WEVCConfigure.jsx (deflated 69%)
+  adding: src-react/packages/backend/components/WEVCPlayback.jsx (deflated 76%)
+  adding: src-react/packages/backend/components/WEVCRadio.jsx (deflated 60%)
+  adding: src-react/packages/backend/components/WEVCPanel.jsx (deflated 66%)
+  adding: src-react/packages/backend/index.jsx (deflated 57%)
+  adding: index.php (stored 0%)
+  adding: classes/ (stored 0%)
+  adding: classes/video-callout.php (deflated 68%)
+  adding: classes/view/ (stored 0%)
+  adding: classes/view/dashboard.php (deflated 59%)
+  adding: classes/view/meta-box.php (deflated 74%)
+  adding: classes/video-callout-meta.php (deflated 66%)
+  adding: classes/video-callout-admin.php (deflated 80%)
+  adding: languages/ (stored 0%)
+  adding: languages/video-callout.pot (deflated 81%)
+  adding: video-callout.php (deflated 51%)
+  adding: lib/ (stored 0%)
+  adding: lib/app/ (stored 0%)
+  adding: lib/app/components/ (stored 0%)
+  adding: lib/js/ (stored 0%)
+  adding: lib/js/wp-color-picker-alpha.js (deflated 70%)
+  adding: readme.txt (deflated 50%)
+  adding: excludes (deflated 24%)
+  adding: assets/ (stored 0%)
+  adding: assets/icon-256x256.png (deflated 1%)
+  adding: assets/screenshot-2.gif (deflated 9%)
+  adding: assets/banner-1544x500.jpg (deflated 6%)
+  adding: assets/defaults.json (deflated 57%)
+  adding: assets/frontend.js (deflated 80%)
+  adding: assets/pack/ (stored 0%)
+  adding: assets/pack/backend/ (stored 0%)
+  adding: assets/pack/backend/index.asset.php (deflated 35%)
+  adding: assets/pack/backend/index.js (deflated 80%)
+  adding: assets/settings.css (deflated 70%)
+  adding: assets/backend.js (deflated 56%)
+  adding: assets/image/ (stored 0%)
+  adding: assets/image/we-logo-sym.svg (deflated 49%)
+  adding: assets/image/we-icon-16.svg (deflated 46%)
+  adding: assets/image/banner.jpg (deflated 2%)
+  adding: assets/image/we-logo.svg (deflated 62%)
+  adding: assets/image/vp-icon-colour.svg (deflated 58%)
+  adding: assets/image/we-logo-sym-grey.svg (deflated 43%)
+  adding: assets/image/vp-icon.svg (deflated 60%)
+  adding: assets/image/we-logo-grey-square@2x.png (deflated 34%)
+  adding: assets/image/we-logo-sym-grey.png (stored 0%)
+  adding: assets/image/we-icon.svg (deflated 46%)
+  adding: assets/banner-772x250.jpg (deflated 4%)
+  adding: assets/screenshot-4.png (deflated 7%)
+  adding: assets/script.js (deflated 71%)
+  adding: assets/screenshot-5.png (deflated 0%)
+  adding: assets/screenshot-7.png (deflated 3%)
+  adding: assets/screenshot-6.png (deflated 1%)
+  adding: assets/screenshot-3.png (deflated 3%)
+  adding: assets/style.css (deflated 63%)
+  adding: assets/screenshot-1.png (deflated 1%)
+  adding: assets/icon-128x128.png (stored 0%)
+Restored 'svn/tags/1.0.6/assets/icon-256x256.png'
+Restored 'svn/tags/1.0.6/assets/banner-1544x500.jpg'
+Restored 'svn/tags/1.0.6/assets/screenshot-1.png'
+Restored 'svn/tags/1.0.6/assets/screenshot-2.png'
+Restored 'svn/tags/1.0.6/assets/banner-772x250.jpg'
+Restored 'svn/tags/1.0.6/assets/screenshot-3.png'
+Restored 'svn/tags/1.0.6/assets/icon-128x128.png'
+Restored 'svn/trunk/assets/icon-128x128.png'
+Restored 'svn/trunk/assets/icon-256x256.png'
+Restored 'svn/trunk/assets/banner-1544x500.jpg'
+Restored 'svn/trunk/assets/screenshot-1.png'
+Restored 'svn/trunk/assets/screenshot-2.png'
+Restored 'svn/trunk/assets/banner-772x250.jpg'
+Restored 'svn/trunk/assets/screenshot-3.png'
+Checked out revision 2809132.
+building file list ... done
+./
+readme.txt
+video-callout.php
+assets/
+assets/banner-1544x500.jpg
+assets/banner-772x250.jpg
+assets/frontend.js
+assets/icon-128x128.png
+assets/icon-256x256.png
+assets/screenshot-1.png
+assets/screenshot-2.gif
+assets/screenshot-3.png
+assets/screenshot-4.png
+assets/screenshot-5.png
+assets/screenshot-6.png
+assets/screenshot-7.png
+assets/style.css
+assets/pack/
+assets/pack/backend/
+assets/pack/backend/index.asset.php
+assets/pack/backend/index.js
+classes/video-callout-admin.php
+classes/video-callout.php
+classes/view/dashboard.php
+classes/view/meta-box.php
+languages/
+languages/video-callout.pot
+src-react/packages/backend/components/WEVCPlayback.jsx
+src-ts/frontend/WEVC_AdminPreview.ts
+src-ts/frontend/WEVC_VideoCallout.ts
+
+sent 2407456 bytes  received 600 bytes  4816112.00 bytes/sec
+total size is 3759277  speedup is 1.56
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/trunk/assets' is already under version control
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/trunk/classes' is already under version control
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/trunk/index.php' is already under version control
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/trunk/languages' is already under version control
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/trunk/lib' is already under version control
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/trunk/readme.txt' is already under version control
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/trunk/resources' is already under version control
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/trunk/src-react' is already under version control
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/trunk/src-ts' is already under version control
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/trunk/video-callout.php' is already under version control
+svn: E200009: Could not add all targets because some targets are already versioned
+svn: E200009: Illegal target for the requested operation
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/assets/banner-1544x500.jpg' is already under version control
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/assets/banner-772x250.jpg' is already under version control
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/assets/icon-128x128.png' is already under version control
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/assets/icon-256x256.png' is already under version control
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/assets/screenshot-1.png' is already under version control
+A  (bin)  svn/assets/screenshot-2.gif
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/assets/screenshot-2.png' is already under version control
+svn: warning: W150002: '/Users/craig/Documents/we-video-popup/svn/assets/screenshot-3.png' is already under version control
+A  (bin)  svn/assets/screenshot-4.png
+A  (bin)  svn/assets/screenshot-5.png
+A  (bin)  svn/assets/screenshot-6.png
+A  (bin)  svn/assets/screenshot-7.png
+svn: E200009: Could not add all targets because some targets are already versioned
+svn: E200009: Illegal target for the requested operation
+Quit now if you dont want to publish! Ensure release tag is right!
+A         svn/tags/1.0.7
+Sending        svn/assets/screenshot-1.png
+Adding  (bin)  svn/assets/screenshot-2.gif
+Sending        svn/assets/screenshot-3.png
+Adding  (bin)  svn/assets/screenshot-4.png
+Adding  (bin)  svn/assets/screenshot-5.png
+Adding  (bin)  svn/assets/screenshot-6.png
+Adding  (bin)  svn/assets/screenshot-7.png
+Adding         svn/tags/1.0.7
+Sending        svn/tags/1.0.7/assets/frontend.js
+Sending        svn/tags/1.0.7/assets/pack/backend/index.asset.php
+Sending        svn/tags/1.0.7/assets/pack/backend/index.js
+Sending        svn/tags/1.0.7/assets/style.css
+Sending        svn/tags/1.0.7/classes/video-callout-admin.php
+Sending        svn/tags/1.0.7/classes/video-callout.php
+Sending        svn/tags/1.0.7/classes/view/dashboard.php
+Sending        svn/tags/1.0.7/classes/view/meta-box.php
+Sending        svn/tags/1.0.7/languages/video-callout.pot
+Sending        svn/tags/1.0.7/readme.txt
+Sending        svn/tags/1.0.7/src-react/packages/backend/components/WEVCPlayback.jsx
+Sending        svn/tags/1.0.7/src-ts/frontend/WEVC_AdminPreview.ts
+Sending        svn/tags/1.0.7/src-ts/frontend/WEVC_VideoCallout.ts
+Sending        svn/tags/1.0.7/video-callout.php
+Sending        svn/trunk/assets/frontend.js
+Sending        svn/trunk/assets/pack/backend/index.asset.php
+Sending        svn/trunk/assets/pack/backend/index.js
+Sending        svn/trunk/assets/style.css
+Sending        svn/trunk/classes/video-callout-admin.php
+Sending        svn/trunk/classes/video-callout.php
+Sending        svn/trunk/classes/view/dashboard.php
+Sending        svn/trunk/classes/view/meta-box.php
+Sending        svn/trunk/languages/video-callout.pot
+Sending        svn/trunk/readme.txt
+Sending        svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx
+Sending        svn/trunk/src-ts/frontend/WEVC_AdminPreview.ts
+Sending        svn/trunk/src-ts/frontend/WEVC_VideoCallout.ts
+Sending        svn/trunk/video-callout.php
+Transmitting file data ...................................done
+Committing transaction...
+Committed revision 2809134.
+➜  we-video-popup git:(master) ✗

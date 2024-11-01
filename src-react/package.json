@@ -1,0 +1,27 @@
+{
+	"name": "video-callout",
+	"version": "1.0.0",
+	"description": "Backend VideoCallout components.",
+	"main": "index.js",
+	"scripts": {
+		"build:non-block": "wp-scripts build --mode=development --webpack-devtool=source-map --output-path=./../assets/pack --config=backend.config.js",
+		"start": "npm install && webpack --mode=development --watch",
+		"watch": "webpack --mode=development --watch --config backend.config.js",
+		"build": "webpack --mode=production --config backend.config.js"
+	},
+	"author": "WebEngine Limited",
+	"license": "GPL-3.0",
+	"dependencies": {
+		"@wordpress/icons": "^9.9.0",
+		"prop-types": "^15.8.1",
+		"styled-components": "^5.3.5",
+		"webpack": "^5.91.0"
+	},
+	"devDependencies": {
+		"@wordpress/env": "^4.6.0",
+		"@wordpress/eslint-plugin": "^12.2.0",
+		"@wordpress/scripts": "^23.0.0",
+		"copy-webpack-plugin": "^10.2.4",
+		"eslint-plugin-prettier": "^4.0.0"
+	}
+}

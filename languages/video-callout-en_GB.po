@@ -1,0 +1,863 @@
+# Copyright (C) 2022 Web Engineer
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Video Callout 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/video-callout\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-10-21T14:12:44+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.7.1\n"
+"X-Domain: video-callout\n"
+
+#. Plugin Name of the plugin
+#: classes/video-callout-admin.php:102
+#: classes/video-callout-admin.php:110
+#: svn/tags/1.0.5/classes/video-callout-admin.php:102
+#: svn/tags/1.0.5/classes/video-callout-admin.php:110
+#: svn/trunk/classes/video-callout-admin.php:102
+#: svn/trunk/classes/video-callout-admin.php:110
+#: src-react/packages/backend/index.jsx:20
+#: svn/tags/1.0.5/src-react/packages/backend/index.jsx:20
+#: svn/trunk/src-react/packages/backend/index.jsx:20
+msgid "Video Callout"
+msgstr "Video Callout"
+
+#. Plugin URI of the plugin
+msgid "https://www.web-engineer.co.uk/video-callout?ref=plugin-page"
+msgstr "https://www.web-engineer.co.uk/video-callout?ref=plugin-page"
+
+#. Description of the plugin
+msgid "A simple solution to creating \"Video Callouts\" to your users on any given post/page as an overlay or modal, allows precise control of the frequency, timing delay and how the video is dismissed."
+msgstr "A simple solution to creating \"Video Callouts\" to your users on any given post/page as an overlay or modal, allows precise control of the frequency, timing delay and how the video is dismissed."
+
+#. Author of the plugin
+msgid "Web Engineer"
+msgstr "Web Engineer"
+
+#. Author URI of the plugin
+msgid "https://www.web-engineer.co.uk/"
+msgstr "https://www.web-engineer.co.uk/"
+
+#: classes/video-callout-admin.php:162
+#: classes/view/meta-box.php:104
+#: svn/tags/1.0.5/classes/video-callout-admin.php:162
+#: svn/tags/1.0.5/classes/view/meta-box.php:104
+#: svn/trunk/classes/video-callout-admin.php:162
+#: svn/trunk/classes/view/meta-box.php:104
+#: src-react/packages/backend/components/WEVCPlayback.jsx:254
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:254
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:254
+msgid "Playback"
+msgstr "Playback"
+
+#: classes/video-callout-admin.php:168
+#: svn/tags/1.0.5/classes/video-callout-admin.php:168
+#: svn/trunk/classes/video-callout-admin.php:168
+msgid "Window"
+msgstr "Window"
+
+#: classes/video-callout-admin.php:174
+#: svn/tags/1.0.5/classes/video-callout-admin.php:174
+#: svn/trunk/classes/video-callout-admin.php:174
+msgid "Frame"
+msgstr "Frame"
+
+#: classes/video-callout-admin.php:180
+#: svn/tags/1.0.5/classes/video-callout-admin.php:180
+#: svn/trunk/classes/video-callout-admin.php:180
+msgid "Closer"
+msgstr "Closer"
+
+#: classes/video-callout-admin.php:189
+#: classes/view/meta-box.php:124
+#: svn/tags/1.0.5/classes/video-callout-admin.php:189
+#: svn/tags/1.0.5/classes/view/meta-box.php:124
+#: svn/trunk/classes/video-callout-admin.php:189
+#: svn/trunk/classes/view/meta-box.php:124
+#: src-react/packages/backend/components/WEVCPlayback.jsx:257
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:257
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:257
+msgid "Autoplay"
+msgstr "Autoplay"
+
+#: classes/video-callout-admin.php:204
+#: classes/view/meta-box.php:128
+#: svn/tags/1.0.5/classes/video-callout-admin.php:204
+#: svn/tags/1.0.5/classes/view/meta-box.php:128
+#: svn/trunk/classes/video-callout-admin.php:204
+#: svn/trunk/classes/view/meta-box.php:128
+#: src-react/packages/backend/components/WEVCPlayback.jsx:269
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:269
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:269
+msgid "Delay"
+msgstr "Delay"
+
+#: classes/video-callout-admin.php:231
+#: classes/view/meta-box.php:141
+#: svn/tags/1.0.5/classes/video-callout-admin.php:231
+#: svn/tags/1.0.5/classes/view/meta-box.php:141
+#: svn/trunk/classes/video-callout-admin.php:231
+#: svn/trunk/classes/view/meta-box.php:141
+msgid "Display frequency period"
+msgstr "Display frequency period"
+
+#: classes/video-callout-admin.php:244
+#: svn/tags/1.0.5/classes/video-callout-admin.php:244
+#: svn/trunk/classes/video-callout-admin.php:244
+msgid "Redisplay duration"
+msgstr "Redisplay duration"
+
+#: classes/video-callout-admin.php:257
+#: classes/view/meta-box.php:189
+#: svn/tags/1.0.5/classes/video-callout-admin.php:257
+#: svn/tags/1.0.5/classes/view/meta-box.php:189
+#: svn/trunk/classes/video-callout-admin.php:257
+#: svn/trunk/classes/view/meta-box.php:189
+#: src-react/packages/backend/components/WEVCPlayback.jsx:347
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:347
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:347
+msgid "Mute"
+msgstr "Mute"
+
+#: classes/video-callout-admin.php:273
+#: svn/tags/1.0.5/classes/video-callout-admin.php:273
+#: svn/trunk/classes/video-callout-admin.php:273
+#: src-react/packages/backend/components/WEVCConfigure.jsx:172
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCConfigure.jsx:172
+#: svn/trunk/src-react/packages/backend/components/WEVCConfigure.jsx:172
+msgid "Position"
+msgstr "Position"
+
+#: classes/video-callout-admin.php:287
+#: svn/tags/1.0.5/classes/video-callout-admin.php:287
+#: svn/trunk/classes/video-callout-admin.php:287
+msgid "Modal window"
+msgstr "Modal window"
+
+#: classes/video-callout-admin.php:301
+#: svn/tags/1.0.5/classes/video-callout-admin.php:301
+#: svn/trunk/classes/video-callout-admin.php:301
+msgid "Modal Background"
+msgstr "Modal Background"
+
+#: classes/video-callout-admin.php:315
+#: svn/tags/1.0.5/classes/video-callout-admin.php:315
+#: svn/trunk/classes/video-callout-admin.php:315
+msgid "CSS Class"
+msgstr "CSS Class"
+
+#: classes/video-callout-admin.php:340
+#: svn/tags/1.0.5/classes/video-callout-admin.php:340
+#: svn/trunk/classes/video-callout-admin.php:340
+msgid "Default width"
+msgstr "Default width"
+
+#: classes/video-callout-admin.php:353
+#: svn/tags/1.0.5/classes/video-callout-admin.php:353
+#: svn/trunk/classes/video-callout-admin.php:353
+msgid "Default height"
+msgstr "Default height"
+
+#: classes/video-callout-admin.php:367
+#: svn/tags/1.0.5/classes/video-callout-admin.php:367
+#: svn/trunk/classes/video-callout-admin.php:367
+msgid "Margin"
+msgstr "Margin"
+
+#: classes/video-callout-admin.php:381
+#: svn/tags/1.0.5/classes/video-callout-admin.php:381
+#: svn/trunk/classes/video-callout-admin.php:381
+msgid "Padding"
+msgstr "Padding"
+
+#: classes/video-callout-admin.php:395
+#: classes/video-callout-admin.php:504
+#: svn/tags/1.0.5/classes/video-callout-admin.php:395
+#: svn/tags/1.0.5/classes/video-callout-admin.php:504
+#: svn/trunk/classes/video-callout-admin.php:395
+#: svn/trunk/classes/video-callout-admin.php:504
+msgid "Background"
+msgstr "Background"
+
+#: classes/video-callout-admin.php:408
+#: classes/video-callout-admin.php:531
+#: svn/tags/1.0.5/classes/video-callout-admin.php:408
+#: svn/tags/1.0.5/classes/video-callout-admin.php:531
+#: svn/trunk/classes/video-callout-admin.php:408
+#: svn/trunk/classes/video-callout-admin.php:531
+msgid "Show shadow"
+msgstr "Show shadow"
+
+#: classes/video-callout-admin.php:421
+#: classes/video-callout-admin.php:583
+#: svn/tags/1.0.5/classes/video-callout-admin.php:421
+#: svn/tags/1.0.5/classes/video-callout-admin.php:583
+#: svn/trunk/classes/video-callout-admin.php:421
+#: svn/trunk/classes/video-callout-admin.php:583
+msgid "Shadow color"
+msgstr "Shadow colour"
+
+#: classes/video-callout-admin.php:435
+#: classes/video-callout-admin.php:544
+#: svn/tags/1.0.5/classes/video-callout-admin.php:435
+#: svn/tags/1.0.5/classes/video-callout-admin.php:544
+#: svn/trunk/classes/video-callout-admin.php:435
+#: svn/trunk/classes/video-callout-admin.php:544
+msgid "Shadow blur"
+msgstr "Shadow blur"
+
+#: classes/video-callout-admin.php:448
+#: classes/video-callout-admin.php:557
+#: svn/tags/1.0.5/classes/video-callout-admin.php:448
+#: svn/tags/1.0.5/classes/video-callout-admin.php:557
+#: svn/trunk/classes/video-callout-admin.php:448
+#: svn/trunk/classes/video-callout-admin.php:557
+msgid "Shadow h-offset"
+msgstr "Shadow h-offset"
+
+#: classes/video-callout-admin.php:461
+#: classes/video-callout-admin.php:570
+#: svn/tags/1.0.5/classes/video-callout-admin.php:461
+#: svn/tags/1.0.5/classes/video-callout-admin.php:570
+#: svn/trunk/classes/video-callout-admin.php:461
+#: svn/trunk/classes/video-callout-admin.php:570
+msgid "Shadow v-offset"
+msgstr "Shadow v-offset"
+
+#: classes/video-callout-admin.php:477
+#: svn/tags/1.0.5/classes/video-callout-admin.php:477
+#: svn/trunk/classes/video-callout-admin.php:477
+msgid "Show"
+msgstr "Show"
+
+#: classes/video-callout-admin.php:490
+#: svn/tags/1.0.5/classes/video-callout-admin.php:490
+#: svn/trunk/classes/video-callout-admin.php:490
+msgid "Overall size"
+msgstr "Overall size"
+
+#: classes/video-callout-admin.php:518
+#: svn/tags/1.0.5/classes/video-callout-admin.php:518
+#: svn/trunk/classes/video-callout-admin.php:518
+msgid "Icon color"
+msgstr "Icon colour"
+
+#: classes/video-callout-admin.php:607
+#: svn/tags/1.0.5/classes/video-callout-admin.php:607
+#: svn/trunk/classes/video-callout-admin.php:607
+msgid "Time before the callout appears in miliseconds (ms), 1000ms = 1 second."
+msgstr "Time before the callout appears in miliseconds (ms), 1000ms = 1 second."
+
+#: classes/video-callout-admin.php:611
+#: svn/tags/1.0.5/classes/video-callout-admin.php:611
+#: svn/trunk/classes/video-callout-admin.php:611
+msgid "Changes the default width of the callout container."
+msgstr "Changes the default width of the callout container."
+
+#: classes/video-callout-admin.php:615
+#: svn/tags/1.0.5/classes/video-callout-admin.php:615
+#: svn/trunk/classes/video-callout-admin.php:615
+msgid "Changes the default height of the callout container."
+msgstr "Changes the default height of the callout container."
+
+#: classes/video-callout-admin.php:619
+#: svn/tags/1.0.5/classes/video-callout-admin.php:619
+#: svn/trunk/classes/video-callout-admin.php:619
+msgid "How far from the edges of the page the window will be placed."
+msgstr "How far from the edges of the page the window will be placed."
+
+#: classes/video-callout-admin.php:623
+#: svn/tags/1.0.5/classes/video-callout-admin.php:623
+#: svn/trunk/classes/video-callout-admin.php:623
+msgid "Space between the outer edge of the callout and the video it contains."
+msgstr "Space between the outer edge of the callout and the video it contains."
+
+#: classes/video-callout-admin.php:627
+#: svn/tags/1.0.5/classes/video-callout-admin.php:627
+#: svn/trunk/classes/video-callout-admin.php:627
+msgid "How much to blur?"
+msgstr "How much to blur?"
+
+#: classes/video-callout-admin.php:631
+#: classes/video-callout-admin.php:647
+#: svn/tags/1.0.5/classes/video-callout-admin.php:631
+#: svn/tags/1.0.5/classes/video-callout-admin.php:647
+#: svn/trunk/classes/video-callout-admin.php:631
+#: svn/trunk/classes/video-callout-admin.php:647
+msgid "Horizontal offset."
+msgstr "Horizontal offset."
+
+#: classes/video-callout-admin.php:635
+#: classes/video-callout-admin.php:651
+#: svn/tags/1.0.5/classes/video-callout-admin.php:635
+#: svn/tags/1.0.5/classes/video-callout-admin.php:651
+#: svn/trunk/classes/video-callout-admin.php:635
+#: svn/trunk/classes/video-callout-admin.php:651
+msgid "Vertical offset."
+msgstr "Vertical offset."
+
+#: classes/video-callout-admin.php:639
+#: svn/tags/1.0.5/classes/video-callout-admin.php:639
+#: svn/trunk/classes/video-callout-admin.php:639
+msgid "How large should the close button be?"
+msgstr "How large should the close button be?"
+
+#: classes/video-callout-admin.php:643
+#: svn/tags/1.0.5/classes/video-callout-admin.php:643
+#: svn/trunk/classes/video-callout-admin.php:643
+msgid "How much to blur the shadow?"
+msgstr "How much to blur the shadow?"
+
+#: classes/video-callout-admin.php:677
+#: classes/view/meta-box.php:144
+#: svn/tags/1.0.5/classes/video-callout-admin.php:677
+#: svn/tags/1.0.5/classes/view/meta-box.php:144
+#: svn/trunk/classes/video-callout-admin.php:677
+#: svn/trunk/classes/view/meta-box.php:144
+#: src-react/packages/backend/components/WEVCPlayback.jsx:141
+#: src-react/packages/backend/components/WEVCPlayback.jsx:208
+#: src-react/packages/backend/components/WEVCPlayback.jsx:230
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:141
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:208
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:230
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:141
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:208
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:230
+msgid "Always show"
+msgstr "Always show"
+
+#: classes/video-callout-admin.php:678
+#: svn/tags/1.0.5/classes/video-callout-admin.php:678
+#: svn/trunk/classes/video-callout-admin.php:678
+#: src-react/packages/backend/components/WEVCPlayback.jsx:212
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:212
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:212
+msgid "Seconds"
+msgstr "Seconds"
+
+#: classes/video-callout-admin.php:679
+#: svn/tags/1.0.5/classes/video-callout-admin.php:679
+#: svn/trunk/classes/video-callout-admin.php:679
+#: src-react/packages/backend/components/WEVCPlayback.jsx:216
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:216
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:216
+msgid "Minutes"
+msgstr "Minutes"
+
+#: classes/video-callout-admin.php:680
+#: svn/tags/1.0.5/classes/video-callout-admin.php:680
+#: svn/trunk/classes/video-callout-admin.php:680
+#: src-react/packages/backend/components/WEVCPlayback.jsx:220
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:220
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:220
+msgid "Hours"
+msgstr "Hours"
+
+#: classes/video-callout-admin.php:681
+#: svn/tags/1.0.5/classes/video-callout-admin.php:681
+#: svn/trunk/classes/video-callout-admin.php:681
+#: src-react/packages/backend/components/WEVCPlayback.jsx:224
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:224
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:224
+msgid "Days"
+msgstr "Days"
+
+#: classes/video-callout-admin.php:686
+#: svn/tags/1.0.5/classes/video-callout-admin.php:686
+#: svn/trunk/classes/video-callout-admin.php:686
+msgid "Time before the callout is shown again."
+msgstr "Time before the callout is shown again."
+
+#: classes/video-callout-admin.php:703
+#: svn/tags/1.0.5/classes/video-callout-admin.php:703
+#: svn/trunk/classes/video-callout-admin.php:703
+msgid "The background color of the callout and the padding around the video."
+msgstr "The background colour of the callout and the padding around the video."
+
+#: classes/video-callout-admin.php:711
+#: svn/tags/1.0.5/classes/video-callout-admin.php:711
+#: svn/trunk/classes/video-callout-admin.php:711
+msgid "The color of the shadow cast by the callout."
+msgstr "The colour of the shadow cast by the callout."
+
+#: classes/video-callout-admin.php:715
+#: svn/tags/1.0.5/classes/video-callout-admin.php:715
+#: svn/trunk/classes/video-callout-admin.php:715
+msgid "Button background color."
+msgstr "Button background colour."
+
+#: classes/video-callout-admin.php:719
+#: svn/tags/1.0.5/classes/video-callout-admin.php:719
+#: svn/trunk/classes/video-callout-admin.php:719
+msgid "Button foreground color."
+msgstr "Button foreground colour."
+
+#: classes/video-callout-admin.php:723
+#: svn/tags/1.0.5/classes/video-callout-admin.php:723
+#: svn/trunk/classes/video-callout-admin.php:723
+msgid "The color of the overlay."
+msgstr "The colour of the overlay."
+
+#: classes/video-callout-admin.php:726
+#: svn/tags/1.0.5/classes/video-callout-admin.php:726
+#: svn/trunk/classes/video-callout-admin.php:726
+msgid "Optional CSS classes to apply to the callouut (can be overriden on the page or post)."
+msgstr "Optional CSS classes to apply to the callouut (can be overriden on the page or post)."
+
+#: classes/video-callout-admin.php:729
+#: classes/view/meta-box.php:175
+#: svn/tags/1.0.5/classes/video-callout-admin.php:729
+#: svn/tags/1.0.5/classes/view/meta-box.php:175
+#: svn/trunk/classes/video-callout-admin.php:729
+#: svn/trunk/classes/view/meta-box.php:175
+msgid "How long before redisplay in"
+msgstr "How long before redisplay in"
+
+#: classes/video-callout-admin.php:731
+#: classes/view/meta-box.php:169
+#: svn/tags/1.0.5/classes/video-callout-admin.php:731
+#: svn/tags/1.0.5/classes/view/meta-box.php:169
+#: svn/trunk/classes/video-callout-admin.php:731
+#: svn/trunk/classes/view/meta-box.php:169
+#: src-react/packages/backend/components/WEVCPlayback.jsx:155
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:155
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:155
+msgid "seconds"
+msgstr "seconds"
+
+#: classes/video-callout-admin.php:732
+#: classes/view/meta-box.php:169
+#: svn/tags/1.0.5/classes/video-callout-admin.php:732
+#: svn/tags/1.0.5/classes/view/meta-box.php:169
+#: svn/trunk/classes/video-callout-admin.php:732
+#: svn/trunk/classes/view/meta-box.php:169
+#: src-react/packages/backend/components/WEVCPlayback.jsx:158
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:158
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:158
+msgid "minutes"
+msgstr "minutes"
+
+#: classes/video-callout-admin.php:733
+#: classes/view/meta-box.php:169
+#: svn/tags/1.0.5/classes/video-callout-admin.php:733
+#: svn/tags/1.0.5/classes/view/meta-box.php:169
+#: svn/trunk/classes/video-callout-admin.php:733
+#: svn/trunk/classes/view/meta-box.php:169
+#: src-react/packages/backend/components/WEVCPlayback.jsx:161
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:161
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:161
+msgid "hours"
+msgstr "hours"
+
+#: classes/video-callout-admin.php:734
+#: classes/view/meta-box.php:169
+#: svn/tags/1.0.5/classes/video-callout-admin.php:734
+#: svn/tags/1.0.5/classes/view/meta-box.php:169
+#: svn/trunk/classes/video-callout-admin.php:734
+#: svn/trunk/classes/view/meta-box.php:169
+#: src-react/packages/backend/components/WEVCPlayback.jsx:164
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:164
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:164
+msgid "days"
+msgstr "days"
+
+#: classes/video-callout-admin.php:777
+#: svn/tags/1.0.5/classes/video-callout-admin.php:777
+#: svn/trunk/classes/video-callout-admin.php:777
+msgid "When enabled the content of the page will be blocked by an overlay."
+msgstr "When enabled the content of the page will be blocked by an overlay."
+
+#: classes/video-callout-admin.php:871
+#: svn/tags/1.0.5/classes/video-callout-admin.php:871
+#: svn/trunk/classes/video-callout-admin.php:871
+#: src-react/packages/backend/components/WEVCPanel.jsx:191
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPanel.jsx:191
+#: svn/trunk/src-react/packages/backend/components/WEVCPanel.jsx:191
+msgid "Preview"
+msgstr "Preview"
+
+#: classes/video-callout-admin.php:880
+#: svn/tags/1.0.5/classes/video-callout-admin.php:880
+#: svn/trunk/classes/video-callout-admin.php:880
+msgid "Default playback settings such as timing. Note for autoplay to work you will need to select the \"mute\" option too."
+msgstr "Default playback settings such as timing. Note for autoplay to work you will need to select the \"mute\" option too."
+
+#: classes/video-callout-admin.php:889
+#: svn/tags/1.0.5/classes/video-callout-admin.php:889
+#: svn/trunk/classes/video-callout-admin.php:889
+msgid "Callout position and it's relation to the page."
+msgstr "Callout position and it's relation to the page."
+
+#: classes/video-callout-admin.php:899
+#: svn/tags/1.0.5/classes/video-callout-admin.php:899
+#: svn/trunk/classes/video-callout-admin.php:899
+msgid "The frame containing the video."
+msgstr "The frame containing the video."
+
+#: classes/video-callout-admin.php:908
+#: svn/tags/1.0.5/classes/video-callout-admin.php:908
+#: svn/trunk/classes/video-callout-admin.php:908
+msgid "The optional button attached to the top right of the callout for closing the window.  When not enabled clicking outside the Video Callout window will dismiss it."
+msgstr "The optional button attached to the top right of the callout for closing the window.  When not enabled clicking outside the Video Callout window will dismiss it."
+
+#: classes/video-callout-admin.php:988
+#: svn/tags/1.0.5/classes/video-callout-admin.php:988
+#: svn/trunk/classes/video-callout-admin.php:988
+msgid "A web-engineer plugin"
+msgstr "A web-engineer plugin"
+
+#: classes/video-callout-admin.php:988
+#: svn/tags/1.0.5/classes/video-callout-admin.php:988
+#: svn/trunk/classes/video-callout-admin.php:988
+msgid "Visit our site"
+msgstr "Visit our site"
+
+#: classes/video-callout-admin.php:988
+#: svn/tags/1.0.5/classes/video-callout-admin.php:988
+#: svn/trunk/classes/video-callout-admin.php:988
+msgid "for information on our range of services."
+msgstr "for information on our range of services."
+
+#: classes/video-callout-admin.php:995
+#: svn/tags/1.0.5/classes/video-callout-admin.php:995
+#: svn/trunk/classes/video-callout-admin.php:995
+msgid "Adjust the general appearance and defaults here. Other settings can be configured on each post and page when you add a video callout."
+msgstr "Adjust the general appearance and defaults here. Other settings can be configured on each post and page when you add a video callout."
+
+#: classes/video-callout-admin.php:996
+#: svn/tags/1.0.5/classes/video-callout-admin.php:996
+#: svn/trunk/classes/video-callout-admin.php:996
+msgid "Callouts are created from the Video Callout widget to the right of the post or page editor."
+msgstr "Callouts are created from the Video Callout widget to the right of the post or page editor."
+
+#: classes/video-callout-admin.php:997
+#: svn/tags/1.0.5/classes/video-callout-admin.php:997
+#: svn/trunk/classes/video-callout-admin.php:997
+msgid "For more information about this plugin see our"
+msgstr "For more information about this plugin see our"
+
+#: classes/video-callout-admin.php:997
+#: svn/tags/1.0.5/classes/video-callout-admin.php:997
+#: svn/trunk/classes/video-callout-admin.php:997
+msgid "Visit plugin website"
+msgstr "Visit plugin website"
+
+#: classes/video-callout-admin.php:997
+#: svn/tags/1.0.5/classes/video-callout-admin.php:997
+#: svn/trunk/classes/video-callout-admin.php:997
+msgid "getting started guide"
+msgstr "getting started guide"
+
+#: classes/video-callout-admin.php:1046
+#: svn/tags/1.0.5/classes/video-callout-admin.php:1046
+#: svn/trunk/classes/video-callout-admin.php:1046
+msgid "Invalid frequency"
+msgstr "Invalid frequency"
+
+#: classes/video-callout-admin.php:1209
+#: svn/tags/1.0.5/classes/video-callout-admin.php:1209
+#: svn/trunk/classes/video-callout-admin.php:1209
+msgid "Video Callout Settings"
+msgstr "Video Callout Settings"
+
+#: classes/video-callout-admin.php:1209
+#: classes/view/dashboard.php:84
+#: svn/tags/1.0.5/classes/video-callout-admin.php:1209
+#: svn/tags/1.0.5/classes/view/dashboard.php:84
+#: svn/trunk/classes/video-callout-admin.php:1209
+#: svn/trunk/classes/view/dashboard.php:84
+msgid "Settings"
+msgstr "Settings"
+
+#: classes/video-callout-meta.php:160
+#: svn/tags/1.0.5/classes/video-callout-meta.php:160
+#: svn/trunk/classes/video-callout-meta.php:160
+msgid "Display frequency was not applied as this was not valid."
+msgstr "Display frequency was not applied as this was not valid."
+
+#: classes/video-callout.php:71
+#: svn/tags/1.0.5/classes/video-callout.php:67
+#: svn/trunk/classes/video-callout.php:69
+msgid "a free plugin by"
+msgstr "a free plugin by"
+
+#: classes/view/dashboard.php:34
+#: svn/tags/1.0.5/classes/view/dashboard.php:34
+#: svn/trunk/classes/view/dashboard.php:34
+msgid "You have"
+msgstr "You have"
+
+#: classes/view/dashboard.php:34
+#: svn/tags/1.0.5/classes/view/dashboard.php:34
+#: svn/trunk/classes/view/dashboard.php:34
+msgid "callouts"
+msgstr "callouts"
+
+#: classes/view/dashboard.php:34
+#: svn/tags/1.0.5/classes/view/dashboard.php:34
+#: svn/trunk/classes/view/dashboard.php:34
+msgid "callout"
+msgstr "callout"
+
+#: classes/view/dashboard.php:35
+#: svn/tags/1.0.5/classes/view/dashboard.php:35
+#: svn/trunk/classes/view/dashboard.php:35
+msgid "in use on your site."
+msgstr "in use on your site. GB"
+
+#: classes/view/dashboard.php:36
+#: svn/tags/1.0.5/classes/view/dashboard.php:36
+#: svn/trunk/classes/view/dashboard.php:36
+msgid "Most recent popups:"
+msgstr "Most recent popups:"
+
+#: classes/view/dashboard.php:78
+#: svn/tags/1.0.5/classes/view/dashboard.php:78
+#: svn/trunk/classes/view/dashboard.php:78
+msgid "There are no \"video-popup's\" currently in use."
+msgstr "There are no \"video-popup's\" currently in use."
+
+#: classes/view/meta-box.php:89
+#: svn/tags/1.0.5/classes/view/meta-box.php:89
+#: svn/trunk/classes/view/meta-box.php:89
+#: src-react/packages/backend/components/WEVCPanel.jsx:158
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPanel.jsx:158
+#: svn/trunk/src-react/packages/backend/components/WEVCPanel.jsx:158
+msgid "Defaults and general styling can be configured from the"
+msgstr "Defaults and general styling can be configured from the"
+
+#: classes/view/meta-box.php:89
+#: svn/tags/1.0.5/classes/view/meta-box.php:89
+#: svn/trunk/classes/view/meta-box.php:89
+#: src-react/packages/backend/components/WEVCPanel.jsx:158
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPanel.jsx:158
+#: svn/trunk/src-react/packages/backend/components/WEVCPanel.jsx:158
+msgid "settings page"
+msgstr "settings page"
+
+#: classes/view/meta-box.php:92
+#: svn/tags/1.0.5/classes/view/meta-box.php:92
+#: svn/trunk/classes/view/meta-box.php:92
+msgid "Video"
+msgstr "Video"
+
+#: classes/view/meta-box.php:98
+#: svn/tags/1.0.5/classes/view/meta-box.php:98
+#: svn/trunk/classes/view/meta-box.php:98
+#: src-react/packages/backend/components/WEVCPanel.jsx:164
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPanel.jsx:164
+#: svn/trunk/src-react/packages/backend/components/WEVCPanel.jsx:164
+msgid "YouTube or Vimeo URL."
+msgstr "YouTube or Vimeo URL."
+
+#: classes/view/meta-box.php:107
+#: svn/tags/1.0.5/classes/view/meta-box.php:107
+#: svn/trunk/classes/view/meta-box.php:107
+msgid "Toggle panel: Video Callout playback"
+msgstr "Toggle panel: Video Callout playback"
+
+#: classes/view/meta-box.php:133
+#: svn/tags/1.0.5/classes/view/meta-box.php:133
+#: svn/trunk/classes/view/meta-box.php:133
+msgid "Number of miliseconds until video appears, 1000 = 1 second."
+msgstr "Number of miliseconds until video appears, 1000 = 1 second."
+
+#: classes/view/meta-box.php:145
+#: svn/tags/1.0.5/classes/view/meta-box.php:145
+#: svn/trunk/classes/view/meta-box.php:145
+#: src-react/packages/backend/components/WEVCPlayback.jsx:175
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:175
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:175
+msgid "second"
+msgstr "second"
+
+#: classes/view/meta-box.php:146
+#: svn/tags/1.0.5/classes/view/meta-box.php:146
+#: svn/trunk/classes/view/meta-box.php:146
+#: src-react/packages/backend/components/WEVCPlayback.jsx:178
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:178
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:178
+msgid "minute"
+msgstr "minute"
+
+#: classes/view/meta-box.php:147
+#: svn/tags/1.0.5/classes/view/meta-box.php:147
+#: svn/trunk/classes/view/meta-box.php:147
+#: src-react/packages/backend/components/WEVCPlayback.jsx:181
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:181
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:181
+msgid "hour"
+msgstr "hour"
+
+#: classes/view/meta-box.php:148
+#: svn/tags/1.0.5/classes/view/meta-box.php:148
+#: svn/trunk/classes/view/meta-box.php:148
+#: src-react/packages/backend/components/WEVCPlayback.jsx:184
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:184
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:184
+msgid "day"
+msgstr "day"
+
+#: classes/view/meta-box.php:153
+#: svn/tags/1.0.5/classes/view/meta-box.php:153
+#: svn/trunk/classes/view/meta-box.php:153
+msgid "Time period before redisplay"
+msgstr "Time period before redisplay"
+
+#: classes/view/meta-box.php:158
+#: svn/tags/1.0.5/classes/view/meta-box.php:158
+#: svn/trunk/classes/view/meta-box.php:158
+msgid "Display frequency range"
+msgstr "Display frequency range"
+
+#: classes/view/meta-box.php:201
+#: svn/tags/1.0.5/classes/view/meta-box.php:201
+#: svn/trunk/classes/view/meta-box.php:201
+#: src-react/packages/backend/components/WEVCConfigure.jsx:150
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCConfigure.jsx:150
+#: svn/trunk/src-react/packages/backend/components/WEVCConfigure.jsx:150
+msgid "Configure"
+msgstr "Configure"
+
+#: src-react/packages/backend/components/WEVCConfigure.jsx:155
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCConfigure.jsx:155
+#: svn/trunk/src-react/packages/backend/components/WEVCConfigure.jsx:155
+msgid "Width"
+msgstr "Width"
+
+#: src-react/packages/backend/components/WEVCConfigure.jsx:159
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCConfigure.jsx:159
+#: svn/trunk/src-react/packages/backend/components/WEVCConfigure.jsx:159
+msgid "Display width of video in pixels"
+msgstr "Display width of video in pixels"
+
+#: src-react/packages/backend/components/WEVCConfigure.jsx:163
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCConfigure.jsx:163
+#: svn/trunk/src-react/packages/backend/components/WEVCConfigure.jsx:163
+msgid "Height"
+msgstr "Height"
+
+#: src-react/packages/backend/components/WEVCConfigure.jsx:167
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCConfigure.jsx:167
+#: svn/trunk/src-react/packages/backend/components/WEVCConfigure.jsx:167
+msgid "Display height of video in pixels"
+msgstr "Display height of video in pixels"
+
+#: src-react/packages/backend/components/WEVCConfigure.jsx:192
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCConfigure.jsx:192
+#: svn/trunk/src-react/packages/backend/components/WEVCConfigure.jsx:192
+msgid "CSS class"
+msgstr "CSS class"
+
+#: src-react/packages/backend/components/WEVCConfigure.jsx:195
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCConfigure.jsx:195
+#: svn/trunk/src-react/packages/backend/components/WEVCConfigure.jsx:195
+msgid "Optional css classes to apply to callout."
+msgstr "Optional css classes to apply to callout."
+
+#: src-react/packages/backend/components/WEVCConfigure.jsx:204
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCConfigure.jsx:204
+#: svn/trunk/src-react/packages/backend/components/WEVCConfigure.jsx:204
+msgid "Revert configuration to defaults"
+msgstr "Revert configuration to defaults"
+
+#: src-react/packages/backend/components/WEVCPanel.jsx:163
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPanel.jsx:163
+#: svn/trunk/src-react/packages/backend/components/WEVCPanel.jsx:163
+msgid "Video address"
+msgstr "Video address"
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:145
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:145
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:145
+msgid "Wait for"
+msgstr "Wait for"
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:147
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:147
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:147
+msgid "How many"
+msgstr "How many"
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:191
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:191
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:191
+msgid "before redisplay"
+msgstr "before redisplay"
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:201
+#: src-react/packages/backend/components/WEVCPlayback.jsx:262
+#: src-react/packages/backend/components/WEVCPlayback.jsx:283
+#: src-react/packages/backend/components/WEVCPlayback.jsx:352
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:201
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:262
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:283
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:352
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:201
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:262
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:283
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:352
+msgid "default"
+msgstr "default"
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:234
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:234
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:234
+msgid "Second"
+msgstr "Second"
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:238
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:238
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:238
+msgid "Minute"
+msgstr "Minute"
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:242
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:242
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:242
+msgid "Hour"
+msgstr "Hour"
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:246
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:246
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:246
+msgid "Day"
+msgstr "Day"
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:260
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:260
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:260
+msgid "Will attempt to autoplay on load. Video must be muted for autoplay to work in some browsers."
+msgstr "Will attempt to autoplay on load. Video must be muted for autoplay to work in some browsers."
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:261
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:261
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:261
+msgid "Autoplay off"
+msgstr "Autoplay off"
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:280
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:280
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:280
+msgid "Number of miliseconds until video appears, 1000 = 1 second"
+msgstr "Number of miliseconds until video appears, 1000 = 1 second"
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:293
+#: src-react/packages/backend/components/WEVCPlayback.jsx:312
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:293
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:312
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:293
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:312
+msgid "Frequency"
+msgstr "Frequency"
+
+#: src-react/packages/backend/components/WEVCPlayback.jsx:366
+#: svn/tags/1.0.5/src-react/packages/backend/components/WEVCPlayback.jsx:366
+#: svn/trunk/src-react/packages/backend/components/WEVCPlayback.jsx:366
+msgid "Revert playback to defaults"
+msgstr "Revert playback to defaults"

@@ -1,0 +1,30 @@
+{
+    "landingPage": "\/wp-admin\/options-general.php?page=video-callout",
+    "preferredVersions": {
+        "php": "8.3",
+        "wp": "6.4"
+    },
+    "phpExtensionBundles": [
+        "kitchen-sink"
+    ],
+    "features": {
+        "networking": true
+    },
+    "steps": [
+        {
+            "step": "installPlugin",
+            "pluginZipFile": {
+                "resource": "url",
+                "url": "https:\/\/downloads.wordpress.org\/plugin\/video-callout.1.1.7.zip"
+            },
+            "options": {
+                "activate": true
+            }
+        },
+        {
+            "step": "login",
+            "username": "admin",
+            "password": "password"
+        }
+    ]
+}

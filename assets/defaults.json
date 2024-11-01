@@ -1,0 +1,48 @@
+{
+	"key": "",
+	"site_url": "",
+	"id": "EngW7tLk6R8",
+	"type": "youtube",
+	"autoplay": true,
+	"mute": false,
+	"frequency_range": 30,
+	"frequency_period": 1,
+	"delay": 0,
+	"extra_classes": "",
+	"styles": {
+		"window": {
+			"position": "bottom-right",
+			"modal": true,
+			"background": "rgba(0,0,0,0.5)",
+			"class": ""
+		},
+		"frame": {
+			"width": 640,
+			"height": 390,
+			"margin": 10,
+			"padding": 10,
+			"shadow": {
+				"show": true,
+				"hoffset": 0,
+				"voffset": 0,
+				"blur": 10,
+				"color": "rgba(0,0,0,0.6)"
+			},
+			"background": "rgba(255,255,255,0.8)"
+		},
+		"closer": {
+			"show": true,
+			"size": 30,
+			"background": "#D00",
+			"color": "#999",
+			"content": "&times;",
+			"shadow": {
+				"show": true,
+				"hoffset": 0,
+				"voffset": 0,
+				"blur": 3,
+				"color": "rgba(0,0,0,0.2)"
+			}
+		}
+	}
+}
